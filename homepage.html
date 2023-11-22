@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CovertTech - Homepage</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Additional styles for the button */
+        .homepage-section {
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        button {
+            padding: 15px 30px;
+            font-size: 1.2em;
+            border: none;
+            border-radius: 5px;
+            background-color: #222;
+            color: #fff;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #111;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to CovertTech</h1>
+        <p>Your gateway to stealthy operations...</p>
+    </header>
+
+    <main>
+        <section class="homepage-section">
+            <h2>Explore Our Products</h2>
+            <button onclick="redirectToProductPage()">Product ABH</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2023 CovertTech. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function redirectToProductPage() {
+            window.location.href = "product_abh.html";
+        }
+    </script>
+</body>
+
+</html>

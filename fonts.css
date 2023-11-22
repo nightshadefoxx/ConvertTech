@@ -1,0 +1,10 @@
+/* Add your font imports and definitions here */
+
+/* Example import of a Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Apply the imported font */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+/* Add more font styles if needed */
