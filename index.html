@@ -4,54 +4,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CovertTech - Homepage</title>
+    <title>spyware - Homepage</title>
     <link rel="stylesheet" href="styles.css">
-    <style>
-        /* Additional styles for the button */
-        .homepage-section {
-            text-align: center;
-            padding: 50px 0;
-        }
-
-        button {
-            padding: 15px 30px;
-            font-size: 1.2em;
-            border: none;
-            border-radius: 5px;
-            background-color: #222;
-            color: #fff;
-            cursor: pointer;
-            transition: background-color 0.3s ease;
-        }
-
-        button:hover {
-            background-color: #111;
-        }
-    </style>
 </head>
 
 <body>
     <header>
-        <h1>Welcome to CovertTech</h1>
+        <h1>Welcome to spyware</h1>
         <p>Your gateway to stealthy operations...</p>
     </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="product_spyphone.html">Multi-function Spy Phone</a></li>
+            <li><a href="product_abh.html">Product ABH</a></li>
+            <!-- Add more navigation links if needed -->
+        </ul>
+    </nav>
 
     <main>
         <section class="homepage-section">
             <h2>Explore Our Products</h2>
-            <button onclick="redirectToProductPage()">Product ABH</button>
+            <div class="product-links">
+                <a href="product_spyphone.html">
+                    <div class="product-link">
+                        <h3>Multi-function Spy Phone</h3>
+                        <p>Discover our cutting-edge spy phone equipped with advanced features.</p>
+                    </div>
+                </a>
+                <a href="product_abh.html">
+                    <div class="product-link">
+                        <h3>Product ABH</h3>
+                        <p>Unlock the potential of our Access Breach Hub gadget.</p>
+                    </div>
+                </a>
+            </div>
         </section>
     </main>
 
     <footer>
-        <p>© 2023 CovertTech. All rights reserved.</p>
+        <p>© 2023 spyware. All rights reserved.</p>
     </footer>
-
-    <script>
-        function redirectToProductPage() {
-            window.location.href = "product_abh.html";
-        }
-    </script>
 </body>
 
 </html>
